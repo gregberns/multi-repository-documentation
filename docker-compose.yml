@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: run
+    ports:
+      - "8000:80"

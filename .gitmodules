@@ -1,0 +1,3 @@
+[submodule "repos/identity-provider-demo"]
+	path = repos/identity-provider-demo
+	url = https://github.com/gregberns/identity-provider-demo.git
