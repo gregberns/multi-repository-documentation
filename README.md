@@ -17,6 +17,9 @@ Example:
 ### For Production
 
 ```bash
+git submodule init
+git submodule update --recursive --remote --force
+
 docker-compose build
 docker-compose up
 ```
